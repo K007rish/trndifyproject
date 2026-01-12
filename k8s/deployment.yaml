@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trend-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: trend
+  template:
+    metadata:
+      labels:
+        app: trend
+    spec:
+      containers:
+      - name: trend
+        image: krsh11/trend:latest
+        ports:
+        - containerPort: 80

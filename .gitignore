@@ -1,0 +1,12 @@
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform-provider-aws_*.exe
+terraform/.terraform.lock.hcl
+.env
+.env.*
+*.log
+.vscode/
+.DS_Store
+Thumbs.db
+teraform

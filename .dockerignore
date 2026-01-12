@@ -1,0 +1,9 @@
+.git
+.gitignore
+terraform
+monitoring
+k8s
+.vscode
+*.log
+.env
+node_modules
